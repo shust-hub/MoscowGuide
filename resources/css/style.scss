@@ -1,0 +1,94 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('./fontello/font/fontello.woff');
+      src: url('./fontello/font/fontello.woff') format('woff'),
+           url('./fontello/font/icon_set_1.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+    font-family:"icon_set_1";
+    src: url('./fontello/icon_set_1.woff');
+    src: url('./fontello/icon_set_1.woff') format('woff'),
+    url('./fontello/icon_set_1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.guidecity { 
+    span {
+        color: #c41c1e;
+        text-transform: uppercase; 
+        font-weight:bold; 
+    }
+    margin: 0 auto;
+    @media (min-width:320px) { 
+        width: 90%;
+     }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        width: 80%;
+    }
+
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        width: 65%;
+     }
+ }
+
+ // <!-- OTHER DESTINATIONS -->
+.tour_list--ul {
+    text-align: center;
+    li {
+        list-style-type: none;
+        margin-bottom: 15px; 
+    }
+    ul {
+        margin-left: 0; 
+        padding-left: 0; 
+    }
+}
+
+.other_tours--size {
+    width: 370px;
+    text-align: center;
+    ul li a i {
+        top: 2px;
+        color: #c41c1e;
+        font-size: 18px;
+    }
+
+    li{
+        margin-top: 5px;
+    }
+
+    li a {
+        padding: 5px 0 10px 0!important;
+    }
+
+    @media (min-width:780px) { 
+        font-size: 25px;
+        text-align: left;
+        li{
+            margin-top: 15px;
+        }
+    
+        li a {
+            padding: 5px 0 20px 0!important;
+        }
+    }
+
+}
+
+.justify-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-lg-60{
+    @media (min-width:992px) { 
+        margin-left: 60px;
+    }
+}
