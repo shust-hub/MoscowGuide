@@ -82,6 +82,9 @@
     font-size: 25px;
     text-align: left;
   }
+  .other_tours--size ul li a i {
+    font-size: 25px;
+  }
   .other_tours--size li {
     margin-top: 15px;
   }
