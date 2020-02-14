@@ -22,18 +22,6 @@
         text-transform: uppercase; 
         font-weight:bold; 
     }
-    margin: 0 auto;
-    @media (min-width:320px) { 
-        width: 90%;
-     }
-
-    @media (min-width: 992px) {
-        width: 80%;
-    }
-
-    @media (min-width: 1200px) {
-        width: 65%;
-     }
  }
 
 .tour_list--ul {

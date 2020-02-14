@@ -14,32 +14,10 @@
   font-style: normal;
 }
 
-.guidecity {
-  margin: 0 auto;
-}
-
 .guidecity span {
   color: #c41c1e;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-@media (min-width: 320px) {
-  .guidecity {
-    width: 90%;
-  }
-}
-
-@media (min-width: 992px) {
-  .guidecity {
-    width: 80%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .guidecity {
-    width: 65%;
-  }
 }
 
 .tour_list--ul {
