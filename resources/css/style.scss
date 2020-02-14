@@ -54,10 +54,13 @@
 .other_tours--size {
     width: 370px;
     text-align: center;
+    font-family: "Roboto",Arial,sans-serif;
+    font-weight: 300;
+
     ul li a i {
-        top: 2px;
+        top: 4px;
         color: #c41c1e;
-        font-size: 18px;
+        font-size: 30px;
     }
 
     li{
@@ -69,17 +72,14 @@
     }
 
     @media (min-width:780px) { 
-        font-size: 25px;
+        font-size: 20px;
         text-align: left;
         ul li a i {
-            font-size: 25px;
-        }
-        li{
-            margin-top: 15px;
+            font-size: 35px;
         }
     
         li a {
-            padding: 5px 0 20px 0!important;
+            padding: 5px 0 15px 0!important;
         }
     }
 
