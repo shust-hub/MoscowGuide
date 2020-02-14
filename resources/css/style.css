@@ -16,8 +16,6 @@
 
 .guidecity {
   margin: 0 auto;
-  /* Medium devices (desktops, 992px and up) */
-  /* Large devices (large desktops, 1200px and up) */
 }
 
 .guidecity span {
@@ -89,6 +87,7 @@
   }
   .other_tours--size li a {
     padding: 5px 0 15px 0 !important;
+    font-size: 20px;
   }
 }
 
