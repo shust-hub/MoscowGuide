@@ -35,17 +35,19 @@
 }
 
 .other_tours--size {
-  width: 295px;
-  text-align: left;
+  width: 320px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 300;
-  padding: 0!important;
 }
 
 .other_tours--size ul li a i {
   top: 4px;
   color: #c41c1e;
   font-size: 30px;
+}
+
+.other_tours--size li {
+  margin-top: 5px;
 }
 
 .other_tours--size li a {
@@ -55,7 +57,6 @@
 @media (min-width: 780px) {
   .other_tours--size {
     font-size: 20px;
-    text-align: left;
   }
   .other_tours--size ul li a i {
     font-size: 35px;
@@ -66,13 +67,15 @@
   }
 }
 
-.justify-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media (min-width: 780px) {
+  .justify-lg-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media (min-width: 992px) {

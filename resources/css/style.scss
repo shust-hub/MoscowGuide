@@ -37,8 +37,7 @@
 }
 
 .other_tours--size {
-    width: 370px;
-    text-align: center;
+    width: 320px;
     font-family: "Roboto",Arial,sans-serif;
     font-weight: 300;
 
@@ -58,7 +57,6 @@
 
     @media (min-width:780px) { 
         font-size: 20px;
-        text-align: left;
         ul li a i {
             font-size: 35px;
         }
@@ -71,13 +69,15 @@
 
 }
 
-.justify-center {
-    justify-content: center;
-    align-items: center;
+.justify-lg-center {
+    @media (min-width:780px) { 
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .ml-lg-60{
     @media (min-width:992px) { 
-        margin-left: 60px;
+        margin-left: 5%;
     }
 }
