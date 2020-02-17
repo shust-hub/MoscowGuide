@@ -1,3 +1,6 @@
+
+
+
 @font-face {
       font-family: 'fontello';
       src: url('./fontello/font/fontello.woff');
@@ -36,48 +39,56 @@
     }
 }
 
-.other_tours--size {
-    width: 320px;
+.guide-wrapper {
+    display: flex;
+    flex-direction: column;
+    @media (min-width:670px) {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.guide {
+    width:290px;
     font-family: "Roboto",Arial,sans-serif;
     font-weight: 300;
-
-    ul li a i {
-        top: 4px;
-        color: #c41c1e;
-        font-size: 30px;
+    ul{
+        list-style: none;
+        padding-inline-start: 0;
+        padding: 0;
+        margin: 0;
+        li {
+            margin-top: 5px;
+                a {
+                    padding: 5px 0 10px 0;
+                    border-bottom: 1px solid #ededed;
+                    padding: 5px 0 10px 0;
+                    display: block;
+                    color: #333;
+                    i {
+                        top: 4px;
+                        color: #c41c1e;
+                        font-size: 30px;
+                    }
+            }
+        }
     }
 
-    li{
-        margin-top: 5px;
-    }
-
-    li a {
-        padding: 5px 0 10px 0!important;
-    }
-
-    @media (min-width:780px) { 
+    @media (min-width:670px) {
         font-size: 20px;
-        ul li a i {
-            font-size: 35px;
+        &:first-child{
+            margin-right: 5%;
         }
-    
-        li a {
-            padding: 5px 0 15px 0!important;
-            font-size: 20px;
-        }
-    }
-
-}
-
-.justify-lg-center {
-    @media (min-width:780px) { 
-        justify-content: center;
-        align-items: center;
+        ul{
+            li {
+                a{
+                    font-size: 20px; 
+                    i {
+                     font-size: 35px;
+                    }
+                }
+            }
+        } 
     }
 }
 
-.ml-lg-60{
-    @media (min-width:992px) { 
-        margin-left: 5%;
-    }
-}
