@@ -20,20 +20,6 @@
   font-weight: bold;
 }
 
-.tour_list--ul {
-  text-align: center;
-}
-
-.tour_list--ul li {
-  list-style-type: none;
-  margin-bottom: 15px;
-}
-
-.tour_list--ul ul {
-  margin-left: 0;
-  padding-left: 0;
-}
-
 .guide-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +43,7 @@
 }
 
 .guide {
-  width: 290px;
+  width: 320px;
   font-family: "Roboto",Arial,sans-serif;
   font-weight: 300;
 }
@@ -92,8 +78,8 @@
   .guide {
     font-size: 20px;
   }
-  .guide:first-child {
-    margin-right: 5%;
+  .guide:last-child {
+    margin-left: 5%;
   }
   .guide ul li a {
     font-size: 20px;
